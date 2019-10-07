@@ -63,3 +63,47 @@ footer {
 	font-size: 22px;
 	width: 100%;
 }
+
+div.spot {
+	height: 200px;
+	border-radius: 10px;
+	border: 2px solid #CCC;
+	margin-bottom: 1rem;
+}
+
+div.spot.spot-red{
+	background: #dc3545;
+}
+
+div.spot.spot-yellow{
+	background: #ffc107;
+}
+
+div.spot.spot-green{
+	background: #28a745;
+}
+
+p.spot-number {
+	border-radius: 50%;
+	border: 3px solid #999;
+	font-weight: bold;
+	font-size: 24px;
+	color: #999;
+	padding: 22px;
+	margin: 0;
+}
+
+.spot-yellow p.spot-number, .spot-red p.spot-number, .spot-green p.spot-number {
+	border: 3px solid #FFF;
+	color: #FFF;
+}
+
+div.time-box {
+	border: 2px solid #CCC;
+	border-radius: 10px;
+}
+
+div.time-box p{
+	margin: 0;
+	padding: 7.5px 0;
+}
